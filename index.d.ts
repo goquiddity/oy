@@ -6,8 +6,8 @@ declare module 'oy-vey' {
     Oy.OyTBodyElementAttributes,
     HTMLTableSectionElement
   >;
-  export const TR: React.DetailedHTMLFactory<Oy.OyTRElementAttributes, HTMLTableRowElement>;
-  export const TD: React.DetailedHTMLFactory<Oy.OyTDElementAttributes, HTMLTableDataCellElement>;
+  export const TR: any;
+  export const TD: any;
   export const Img: React.DetailedHTMLFactory<Oy.OyImgElementAttributes, HTMLImageElement>;
   export const A: React.DetailedHTMLFactory<Oy.OyAElementAttributes, HTMLAnchorElement>;
   export const renderTemplate: (
